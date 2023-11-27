@@ -23,7 +23,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">Badmintons historie</h3>
               <div className="text-lg">
-                Sporten bev opfundet i i England i 1930'erne. Imellem tiden er sporten blev udbredt til næsten alle verdens hjørner, men især i asien og i europa. Danmark har nogen af verdenens bedste spillere som Victor Axelsen, Mia Blichfeldt og Camilla Martin
+                Sporten blev opfundet i England i 1930&apos;erne. Imellem tiden er sporten blev udbredt til næsten alle verdens hjørner, men især i asien og i europa. Danmark har nogen af verdenens bedste spillere som Victor Axelsen, Mia Blichfeldt og Camilla Martin.
               </div>
             </Link>
             <Link
