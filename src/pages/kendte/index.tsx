@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import { image1 } from "~/utils/Images"
-import styles from './styles.module.css';
 import Link from 'next/link';
 import { FiArrowLeft } from 'react-icons/fi';
 

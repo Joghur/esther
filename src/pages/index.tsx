@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
 
@@ -23,7 +23,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">Badmintons historie</h3>
               <div className="text-lg">
-                 Sporten bev opfundet i i England i 1930'erne. Imellem tiden er sporten blev udbredt til næsten alle verdens hjørner, men især i asien og i europa. Danmark har nogen af verdenens bedste spillere som Victor Axelsen, Mia Blichfeldt og Camilla Martin
+                Sporten bev opfundet i i England i 1930'erne. Imellem tiden er sporten blev udbredt til næsten alle verdens hjørner, men især i asien og i europa. Danmark har nogen af verdenens bedste spillere som Victor Axelsen, Mia Blichfeldt og Camilla Martin
               </div>
             </Link>
             <Link
@@ -33,12 +33,12 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">Hvad er badminton?</h3>
               <div className="text-lg">
-              Badminton er en sport, hvor du spiller med en ketcher og en fjerbold. Badminton er verdens hurtigtse ketchersport. Tryk på boksen og kom direkte hen til Badminton Danmarks hjemmeside, hvor du kan få flere oplysninger vedrørende events, turneringer, hvor man kan starte til badminton osv.   
+                Badminton er en sport, hvor du spiller med en ketcher og en fjerbold. Badminton er verdens hurtigtse ketchersport. Tryk på boksen og kom direkte hen til Badminton Danmarks hjemmeside, hvor du kan få flere oplysninger vedrørende events, turneringer, hvor man kan starte til badminton osv.
               </div>
             </Link>
           </div>
           <div className="rounded-3xl overflow-hidden shadow-xl shadow-white">
-            <img src="https://img-cdn-p.ekstrabladet.dk/image/ekstrabladet/8430886/p910/?at=da86d9762b936799d296f2f70270e81f" alt="Mia" />
+            <Image src="https://i.eurosport.com/2023/05/30/3715460-75599128-2560-1440.jpg" alt="Mia" width={400} height={400} />
           </div>
         </div>
       </main>
