@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
 
@@ -37,9 +38,13 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="rounded-3xl overflow-hidden shadow-xl shadow-white">
-            <Image src="https://i.eurosport.com/2023/05/30/3715460-75599128-2560-1440.jpg" alt="Mia" width={400} height={400} />
-          </div>
+          <motion.div
+            animate={{ rotate: 360 }} // You can adjust the degree of rotation here
+            transition={{ duration: 2 }} // You can adjust the duration of the rotation here
+            className="rounded-3xl overflow-hidden shadow-xl shadow-white"
+          >
+            <Image src="https://i.eurosport.com/2023/05/30/3715460-75599128-2560-1440.jpg" alt="ketcher" width={400} height={400} />
+          </motion.div>
         </div>
       </main>
     </>
